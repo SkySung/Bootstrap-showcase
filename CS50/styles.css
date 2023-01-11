@@ -1,0 +1,23 @@
+#custom-btn {
+    background-color: #0dcaf05f;
+    width: 30%;
+    margin-inline-start: 70%;
+    margin-top: 3px;
+}
+
+#doc-container {
+    margin-top: 3rem;
+}
+#costum-box {
+    background-color: #0dcaf05f;
+}
+
+#modal-btn-close {
+    margin: auto;
+}
+
+.alert {
+    border-width: 5px;
+    border-top: none;
+    border-left: none;
+}
