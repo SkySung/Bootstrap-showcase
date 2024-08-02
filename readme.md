@@ -4,10 +4,6 @@
 
 # 功能展示
 
-https://github.com/user-attachments/assets/2f6129de-360b-489b-bfe2-497ef037b8d0
-
+![test](./img/output.webp)
 
 # RWD 展示
-
-https://github.com/user-attachments/assets/81ae6084-bb20-48a3-8eb5-c1926d07a7e7
-
