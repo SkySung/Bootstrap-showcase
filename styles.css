@@ -5,10 +5,16 @@
     margin-top: 3px;
 }
 
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
 #doc-container {
     margin-top: 3rem;
 }
-#costum-box {
+#custom-box {
     background-color: #0dcaf05f;
 }
 
