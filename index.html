@@ -104,7 +104,7 @@
                     </div>
                     <div class="col-lg-4 bg-light">
                         <div class="card shadow-lg">
-                            <img src="img/007.jpg" alt="" class="card-img-top img-fluid">
+                            <img src="img/007.jpg" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h3 class="card-title">Some</h3>
                                 <p class="card-text">Some text here, not ready</p>
@@ -114,6 +114,13 @@
                     </div>
                 </div>
             </div>
+            <div class="div p-5 text-center">
+                card-img-top 這個 class 雖然能夠自動對齊width，卻會有height不同的問題。<br>
+                查閱<a href="https://getbootstrap.com/docs/5.3/components/card/"> Doc </a> 和 <a href="https://github.com/search?q=org%3Atwbs+card-img-top&type=code">GitHub Repo</a><br>
+                其中 repo 裡面對於 card-img-top 的處理的確只有 width 100%，height沒有任何參數<br>
+                也沒有人發issue討論，所以只好強制用 height =200px 並且用 cover 進行縮放， 接著用 @media 來做RWD
+            </div>
+
         </div>
 
         <footer class="p-4 border-top">

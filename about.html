@@ -50,25 +50,31 @@
 
     <div class="container p-lg-4 p-sm-1">
         <div class="row g-4 align-content-lg-around">
-            <div class="col-lg-4">
-                <img class="img-fluid" src="./img/008.jpg" alt="about">
+            <div class="col-lg-4 border border-2 border-danger">
+                <img class="rounded mx-auto img-fluid" src="./img/008.jpg" alt="about">
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 border border-2 border-danger">
                 <p>
                     <table class="table table-hover">
                         <thead class="table-group-divier">
                             <tr>
-                                <th>first</th>
-                                <th>second</th>
+                                <th>一個關於 table-group-divier 的展示</th>
+                                <th>thead 部分</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <td>right?</td>
-                            <td>now?</td>
+                            <td>啟用 table-hover 會有hover效果，table-hover預設只對tbody有效</td>
+                            <td>tbody 部分</td>
+                        </tbody>
+                        <tbody>
+                            <td>第二排tbody</td>
+                            <td>tbody 部分</td>
                         </tbody>
                     </table>
-                    use class table, table-hover in table<br>
-                    use class table-group-divider in thead<br>
+                    在寬螢幕的情況下<br>
+                    這邊左邊是照片 ，右邊是 table 的效果則是來自 col 的自動分隔<br>
+                    其中圖片部分用了 col-lg-4 ，表格部分用了 col-lg-8<br>
+                    因此他們會呈現1:2的比例
                 </p>
             </div>
 
